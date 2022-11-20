@@ -1,0 +1,125 @@
+.main_menu > li {
+    float: right;
+    margin-left: 25px;
+    margin-right: unset;
+}
+
+.main_menu > li:last-child {
+    margin-left: 0;
+}
+
+.main_menu > li.login-site svg,
+.main_menu > li.download-app svg {
+    margin-left: 10px;
+    margin-right: unset;
+}
+
+.hd-cont li {
+    margin-left: 20px;
+    margin-right: unset;
+    padding-left: 20px;
+    padding-right: unset;
+}
+
+.hd-cont li:before {
+    right: auto;
+    left: 0;
+}
+
+.hd-cont li a svg {
+    margin-left: 10px;
+    margin-right: unset;
+}
+
+.social ul li {
+    margin-left: 25px;
+    margin-right: unset;
+}
+
+.social ul li:last-child {
+    margin-left: 0;
+}
+
+.social p {
+    margin-left: 25px;
+    margin-right: unset;
+}
+
+.shape-home,
+.shape-how-use,
+.shape-footer {
+    direction: ltr;
+}
+
+.section_about .sec_head,
+.section_why_about .sec_head {
+    text-align: right;
+}
+
+.text-start {
+    text-align: right !important;
+}
+
+.txt-step {
+    padding-right: 15px;
+    padding-left: unset;
+}
+
+.list-contact li a svg {
+    margin-left: 10px;
+    margin-right: unset;
+}
+
+.li-ft li:before {
+    transform: translateY(-50%) scale(-1);
+    right: 0;
+    left: auto;
+}
+
+.li-ft li {
+    padding-left: unset;
+    padding-right: 25px;
+}
+
+.social-ft li {
+    margin-left: 20px;
+    margin-right: unset;
+}
+
+.type-cont li {
+    margin-left: 15px;
+    margin-right: unset;
+}
+
+.d-flex .form-group {
+    margin-left: 10px;
+    margin-right: unset;
+}
+
+.d-flex .form-group:last-child {
+    margin-left: 0;
+}
+
+.d-contact > div {
+    padding-left: 30px;
+    margin-right: unset;
+}
+
+.d-contact > div:nth-child(even) {
+    padding-left: 0;
+}
+
+.item-contact div {
+    padding-right: 15px;
+    padding-left: unset;
+}
+
+.item-social li {
+    margin-left: 15px;
+    margin-right: unset;
+}
+
+.txt-vl {
+    padding-right: 25px;
+    padding-left: unset;
+}

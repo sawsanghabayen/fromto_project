@@ -1,0 +1,96 @@
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {
+
+    .hamburger,
+    .is-closed {
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+
+    #header {
+        position: fixed;
+        top: 0;
+        height: auto;
+    }
+
+    .opt-mobail {
+        display: block;
+    }
+
+    .opt-mobail .lang-site {
+        display: block
+    }
+
+    .main_menu,
+    .top-header,
+    .main_menu > li.login-site,
+    .main_menu > li.download-app {
+        display: none;
+    }
+
+    .logo-site img {
+        max-width: 100px;
+    }
+
+    .main_menu {
+        position: absolute;
+        width: 100%;
+        top: 82px;
+        left: 0;
+        background: #fff;
+        box-shadow: 0 6px 7px rgb(0 0 0 / 16%);
+        padding-bottom: 20px;
+        border-radius: 0;
+    }
+
+    .main_menu li {
+        display: block;
+        float: inherit;
+        padding: 10px 20px;
+    }
+
+    .sec_head {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .section_home {
+        padding: 150px 0 0px;
+    }
+
+    .section_partners .container {
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+
+    .partners_head {
+        width: 100%;
+        margin-bottom: 15px
+    }
+
+    .section_partners .coloum4 {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .section_about:before, .section_about:after {
+        display: none;
+    }
+    
+    .shape-how-use svg {
+        width: calc(300% + 1.3px);
+        height: 100px;
+    }
+    
+    .section_how_use {
+        padding: 120px 0 100px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 500px) {}
